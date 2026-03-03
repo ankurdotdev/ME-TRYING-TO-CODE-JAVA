@@ -1,3 +1,16 @@
+/* 
+Problem 1 -->
+
+Given an integer num, return the number of steps required to reduce it to 0.
+
+Rules:
+- If num is even → divide by 2
+- If num is odd → subtract 1
+
+Repeat until num becomes 0 and count total steps.
+*/
+
+
 import java.util.*;
 public class Problem1 {
     public static void main(String[] args) {
