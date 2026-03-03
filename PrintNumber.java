@@ -6,5 +6,12 @@ public class PrintNumber {
         for(int i = 1;i<=n;i++){
             System.out.println(i);
         }
+        System.out.println();
+
+        System.out.println("reverse print");
+        for(int i=n;i>0;i--){
+            System.out.println(i);
+
+        }
     }
 }
