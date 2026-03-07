@@ -1,3 +1,5 @@
+// Find the Index of an Element
+
 public class Array8 {
     public static void main(String[] args) {
         int[] a = {1,2,4,3,4,4};
@@ -5,7 +7,7 @@ public class Array8 {
 
         for(int i =0;i<a.length;i++){
             if(a[i] == target){
-                System.out.println("Targetted element index--> "+i);
+                System.out.println("Target found at  index--> "+i);
             }
 
         }
